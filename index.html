@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+  <link rel="icon" href="https://fav.farm/🔥" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="controls">
+      <label class="colorBtn" for="color-input">Stroke Color</label>
+      <input type="color" id="color-input">
+      <label class="colorBtn" for="bg-color-input">Background Color</label>
+      <input type="color" id="bg-color-input">
+      <label class="colorBtn" for="thickness-input">Thickness : </label>
+      <input type="range" min="1" max="100" id="thickness-input">
+  </div>
+  
+<canvas id="draw" width="800" height="800"></canvas>
+<script src="script.js">
+
+  
+  // function draw(e){
+  //   if(!isDrawning) return;
+  //   console.log(e)
+  //   ctx.beginPath();
+  //   ctx.moveTo(x,y);
+  //   ctx.lineTo(e.offsetX,e.offsetY);
+  //   ctx.stroke();
+  //   [x,y] = [x = e.offsetX,y = e.offsetY]
+    
+  // }
+
+
+  //   canvas.addEventListener('mousedown',(e) =>{
+
+  //       isDrawning = true;
+  //       [x,y] = [e.offsetX,e.offsetY];
+  //   })
+  //   canvas.addEventListener('mousemove',draw)
+  //   canvas.addEventListener('mouseup',() => isDrawning = false)
+  //   canvas.addEventListener('mouseout',() => isDrawning = false)
+
+</script>
+
+<style>
+
+
+</style>
+
+</body>
+</html>
